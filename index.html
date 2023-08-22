@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- For Icons Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- For Custom Styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <a href="index.html" class="logo"><span>Portfo</span>lio</a>
+
+        <nav class="navbar">
+            <a href="#homepage" class="nav-active">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#contacts">Contact</a>
+        </nav>
+
+        <div id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+    </header>
+
+    <!-- Home Content -->
+    <section class="home" id="homepage">
+        <div class="home-content">
+            <h1>Hi, I'm Anurag Kumar</h1>
+            <h3>Frontend Developer</h3>
+            <p>I am a front-end developer. I can make a website more and more interactive.</p>
+            <div class="home-cv">
+                <a href="images/Resume.pdf" download="Anurag CV">
+                    Download CV
+                </a>
+            </div>
+        </div>
+        <span class="home-img"></span>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="main">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Computer Science Engineering Student with knowledge in web development and programming languages.
+                    Ability to learn and understand new technologies and able to operate in fast-paced environment.
+                    Currently in my 2nd year of B.Tech at SGT University.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="project">
+        <div class="projects">
+            <h1>Projects</h1>
+            <h4>Some of my best works are:</h4>
+
+            <!-- Carousel Projects -->
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <img src="images/To-Do List.png">
+                    <div class="hero-content">
+                        <div class="slide-main">
+                            <h2>To-Do List</h2>
+                            <p>In this project, we can add and delete our daily tasks. It's based on HTML, CSS and
+                                JavaScript.
+                                The tasks will remain in our local storage even after refreshing the page.</p>
+                            <button>VISIT WORK..</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="images/Unit Converter.png">
+                    <div class="hero-content">
+                        <div class="slide-main">
+                            <h2>Unit Converter</h2>
+                            <p>In this we have used HTML, CSS and JavaScript to convert Temperature, Weight and Distance
+                                into
+                                other units. It's also Responsive for some devices.</p>
+                            <button>VISIT WORK..</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="images/Calculator.png">
+                    <div class="hero-content">
+                        <div class="slide-main">
+                            <h2>Calculator</h2>
+                            <p>The project aims to develop an interactive calculator using web technologies like HTML,
+                                CSS, and JavaScript. It will allow users to input numbers, perform calculations, and
+                                display the results dynamically.</p>
+                            <button>VISIT WORK..</button>
+                        </div>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-chevron-left"></i></a>
+                <a class="next" onclick="plusSlides(1)"><i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+
+
+        <div class="dot-icons">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- Contact Me -->
+    <div class="contact-me" id="contacts">
+        <p>Let Me Get You A Beautiful Website.</p>
+        <div class="contactid">
+            <a href="mailto:anuragkumarroy1712@gmail.com" target="_blank"><i
+                    class="fa-solid fa-envelope"></i>anuragkumarroy1712@gmail.com</a>
+            <a href="#7"><i class="fa-solid fa-location-dot"></i></i>Delhi, India</a>
+            <a href="#8"><i class="fa-solid fa-phone"></i></i>+91-9315826870</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Anurag Kumar</p>
+        <p>For more HTML, CSS, and coding help - please connect me through the following links. </p>
+        <div class="social">
+            <a href="https://instagram.com/anuragkumar__10?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com/profile.php?id=100091243759130&mibextid=ZbWKwL" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="https://twitter.com/anuragkumar_10?t=d-ARNpPLjn0Wtw7DG19DjQ&s=08" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/anurag-kumar-b54869250" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+        <p class="end">©Copyright By Anurag Kumar</p>
+    </footer>
+
+
+    <!-- Custom Script file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
