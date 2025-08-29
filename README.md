@@ -52,10 +52,3 @@ npm run build
 This portfolio can be deployed on platforms like **Netlify** or **Vercel** by directly connecting the GitHub repository.
 
 ---
-
-✨ That’s the stack and setup behind my portfolio.
-
-```
-
-Would you like me to also add a **small “Design Inspiration / Motivation” section** (like why you built it this way), or keep it strictly technical?
-```
