@@ -273,7 +273,7 @@ while (coding) {
           </div>
 
           <div className="text-center mt-12">
-            <Link to="/skiils" className="btn btn-secondary">
+            <Link to="/skills" className="btn btn-secondary">
               View All Skills
               <svg
                 className="w-4 h-4 ml-2"
