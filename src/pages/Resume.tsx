@@ -335,7 +335,7 @@ function Resume() {
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <span className="text-text-secondary">React.js</span>
-                      <div className="flex items-center">
+                      <div className="hidden sm:flex items-center">
                         <div className="w-24 bg-border rounded-full h-2 mr-2">
                           <div
                             className="bg-primary h-2 rounded-full"
@@ -351,7 +351,7 @@ function Resume() {
                       <span className="text-text-secondary">
                         JavaScript/TypeScript
                       </span>
-                      <div className="flex items-center">
+                      <div className="hidden sm:flex items-center">
                         <div className="w-24 bg-border rounded-full h-2 mr-2">
                           <div
                             className="bg-primary h-2 rounded-full"
@@ -365,7 +365,7 @@ function Resume() {
                     </div>
                     <div className="flex items-center justify-between">
                       <span className="text-text-secondary">HTML5/CSS3</span>
-                      <div className="flex items-center">
+                      <div className="hidden sm:flex items-center">
                         <div className="w-24 bg-border rounded-full h-2 mr-2">
                           <div
                             className="bg-primary h-2 rounded-full"
@@ -379,7 +379,7 @@ function Resume() {
                     </div>
                     <div className="flex items-center justify-between">
                       <span className="text-text-secondary">Tailwind CSS</span>
-                      <div className="flex items-center">
+                      <div className="hidden sm:flex items-center">
                         <div className="w-24 bg-border rounded-full h-2 mr-2">
                           <div
                             className="bg-secondary h-2 rounded-full"
@@ -401,7 +401,7 @@ function Resume() {
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <span className="text-text-secondary">Node.js</span>
-                      <div className="flex items-center">
+                      <div className="hidden sm:flex items-center">
                         <div className="w-24 bg-border rounded-full h-2 mr-2">
                           <div
                             className="bg-secondary h-2 rounded-full"
@@ -415,7 +415,7 @@ function Resume() {
                     </div>
                     <div className="flex items-center justify-between">
                       <span className="text-text-secondary">Express.js</span>
-                      <div className="flex items-center">
+                      <div className="hidden sm:flex items-center">
                         <div className="w-24 bg-border rounded-full h-2 mr-2">
                           <div
                             className="bg-secondary h-2 rounded-full"
@@ -429,7 +429,7 @@ function Resume() {
                     </div>
                     <div className="flex items-center justify-between">
                       <span className="text-text-secondary">MongoDB</span>
-                      <div className="flex items-center">
+                      <div className="hidden sm:flex items-center">
                         <div className="w-24 bg-border rounded-full h-2 mr-2">
                           <div
                             className="bg-secondary h-2 rounded-full"
@@ -443,7 +443,7 @@ function Resume() {
                     </div>
                     <div className="flex items-center justify-between">
                       <span className="text-text-secondary">SQL</span>
-                      <div className="flex items-center">
+                      <div className="hidden sm:flex items-center">
                         <div className="w-24 bg-border rounded-full h-2 mr-2">
                           <div
                             className="bg-accent h-2 rounded-full"
